@@ -1,0 +1,21 @@
+{
+  "name": "autocadd-claude-integration",
+  "version": "1.0.0",
+  "description": "Integration of AutoCADD API with Claude for generating car drawings",
+  "main": "src/generateAutocadScript.js",
+  "scripts": {
+    "generate": "node src/generateAutocadScript.js",
+    "test": "node --check src/generateAutocadScript.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://localhost:26831/raags79/autocadd-claude-integration"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.125.0"
+  }
+}
